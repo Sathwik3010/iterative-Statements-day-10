@@ -1,0 +1,54 @@
+while
+-----
+if we don't know number of iterations then we should go for while loop
+
+while(some action){
+--------
+--------
+} 
+is also known as top tested loop
+semicolon is not mandatory
+minimum number of execution are 0
+
+do-while
+---------
+if at least one time is executing the do block then we should go for do while.
+syntax
+-------
+do {
+-------------
+-------------
+} while(some condition) ;
+is also known as bottom tested loop
+semicolon is mandatory
+minimum number of execution are 1
+
+for Loop
+--------
+if we know number of iterations then we should go with for Loop
+Syntax
+-------
+for(initialization-section;condition-check;inc/dec section){
+-------------------
+-------------------
+}
+
+initialization section
+-----------------------
+this section will be executed only once in entire for loop representation.
+
+jumping statements
+-------------------
+break;
+the break statement is used to terminate the execution of loop or switch or label block.
+
+we can use break statement in 3 places only such as
+1. inside switch
+2. inside loops
+3. inside label blocks
+
+if we are using any where else we are getting compile time error
+
+continue;
+----------
+to skip the current iteration and proceed to the next iteration.
